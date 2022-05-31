@@ -12,7 +12,7 @@
     <p>{{items}}</p>
 
     <div style="padding-top: 40px; font-weight: bold">Value in Stencil component: </div>
-    <my-component id='component' first="Value:" test='20' tester='[{x: 23, y:74}, {x: 6, y:14}]'></my-component>
+    <my-component id='component' first="It is:" :tester.prop="items"></my-component>
   </div>
 </template>
 
